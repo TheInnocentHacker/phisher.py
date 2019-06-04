@@ -15,7 +15,7 @@ port=80
 url = input("Enter URL to clone: ")
 location = input("Enter redirect URL: ")
 
-headers = {'User-Agent':r"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36"}
+headers = {'User-Agent':r"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0"}
 
 def main():
 	fetch()
